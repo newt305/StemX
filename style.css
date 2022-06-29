@@ -1,0 +1,282 @@
+html, .mainPage {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://media.discordapp.net/attachments/831240001874034758/991194950853218344/IMG-7167.JPG?width=741&height=556')
+}
+
+
+
+
+.image {
+  
+    width: auto;
+    height: auto;
+}
+
+
+
+.moreInfo {
+  color:black;
+  padding: 10px;
+  text-align:center;
+  background-color: white;
+  margin:0;
+  position:relative;
+  margin-bottom:210px;
+  margin-left:150px;
+  margin-right:150px;
+  font-family: "Times New Roman", Times, serif;
+   border-radius:5px;
+}
+
+
+body {
+    margin: 0;
+    background-color:#f8e80f;
+}
+
+
+
+.intro {
+  text-align:center;
+  padding:20px;
+  
+}
+
+.other {
+text-align:center;
+  background-color:#0744ae;
+  color:white;
+  padding:10px;
+   font-family: "Times New Roman", Times, serif;
+}
+
+
+.team {
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color:#ececec;
+  font-family: "Times New Roman", Times, serif;
+}
+/*above is the css for the index page*/
+
+ nav {
+  width:100%;
+   background-color:#212121;
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-decoration: none;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size:20px;
+   margin-bottom:100px;
+ }
+nav a {
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  display:flex;
+   flex-direction:row;
+   justify-content:space-evenly;}
+  
+ 
+  /* color change on hover */
+  nav a:hover {
+    background-image:linear-gradient(to right,  #fff9ae 0%,#f8ed62 51%,#e9d700  100%);	 
+    color: #fff;
+    border-radius:5px;
+  }
+
+/* all of this is for the nav bar*/
+
+.contacttUs {
+  display: flex;
+  flex-direction:column;
+  justify-content:center;
+  
+}
+.indexButtons{
+  padding:20px;
+}
+.qss {
+  background-color:#e5e5e5;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+  padding:10px;
+  font-family: "Times New Roman", Times, serif;
+  
+}
+
+
+/*Volunteer With Us page*/   
+.joinUs {
+  display:flex;
+  justify-content:center;
+  color:white;
+  padding:20px;
+  background-color:#0744ae;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+/*this is for the main volunteer w us header*/
+
+.whatyoucanDo {
+  font-size:17px;
+}
+.positions {
+  background-color:#ececec;
+  padding:10px;
+  font-size: 19px;
+}
+.positionsOpen {
+  color:#0744ae
+}
+button {
+  background-color:#0955da;
+  color:white;
+  padding:10px;
+  font-size:15px;
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  border-radius:4px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+button:hover, button :focus, button:active {
+  background-color: #83A1D6;
+  color: white;
+}
+/*above is for the main button*/  
+
+
+.otheropportBody{
+  background-color:#ececec;
+}
+.otherOpport{
+  text-align:center;
+  color:white;
+  background-color:#0744ae;
+  padding:20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.collab{
+color:#0744ae;
+  font:25px;
+}
+.interviewsHeader{
+ color:#0744ae;
+  font:25px; 
+}
+.opportunitiesButtons{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
+  margin:10px;
+ justify-content:space-around;
+}
+
+/*for mental health page*/ 
+.mentalHealth {
+  text-align:center;
+  color:white;
+  background-color:#0744ae;
+  padding:20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.mentalhealthSection {
+  background-color:#ececec;
+  padding:10px;
+}
+
+.mentalhealthBody {
+  background-color:#fff;
+}
+
+.contacttUs {
+  text-align:center;
+  color:white;
+  background-color:#0744ae;
+  padding:20px;
+   font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+.contact {
+  color: #0744ae;
+   background-color:#ececec;
+}
+.contactBody {
+ background-color:#fff; 
+  
+}
+
+.gallery {
+ text-align:center;
+  color:white;
+  background-color:#0744ae;
+  padding:20px;
+}
+.pics {
+display:flex;
+align-items:center;
+  flex-direction:column;
+  padding:20px;
+}
+.logo{
+  display:flex;
+justify-content:center;
+}
+
+.middleSchool {
+  margin-bottom:10px;
+}
+.college {
+  margin-bottom:10px;
+}
+.professional {
+  margin-bottom:10px;
+}
+.my {
+  padding:40px;
+    display:flex;
+   align-items:center;
+   flex:auto;
+   flex-direction:column;
+   bottom:0;
+}
+
+.picOne {
+  margin:30px;
+}
+.picTwo {
+  margin:30px;
+}
+.picThree {
+  margin:30px;
+}
+.picFour {
+  margin:30px;
+}
+.picFive {
+ margin:30px; 
+}
+
+
+.mentalhealthBody {
+  background-color: #f8e80f;
+}
